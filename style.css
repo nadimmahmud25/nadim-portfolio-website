@@ -8,6 +8,9 @@ h1{
 p{
     color: dimgray;
 }
+#font{
+    text-align: center;
+}
 .name-highlight{
  color: blue;
 }
@@ -20,10 +23,7 @@ p{
 .half-width img{
     width: 100%;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
+
 section{
     height: 500px;
     padding-bottom: 150px;
@@ -31,42 +31,34 @@ section{
 .link-btn{
     text-decoration: none;
     background-color: orange;
-    background-image: linear-gradient(45deg, blue, skyblue);
-    padding: 15px 40px;
+    background-image: linear-gradient(45deg,red,rgb(255, 0, 0));
+    padding: 15px 50px;
     border-radius: 5px;
     color:rgb(229, 255, 0);
     font-weight: 700;
     
 }
-.about-area{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position:right ;
-}
-.single-exp{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 60%;
-    background-color: white;
-}
-.exp-area{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
-    
-}
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, skyblue,blue);
-    border-image-slice: 1;
-}
-footer p{
-
+#chat{
     text-align: center;
-    font-size: 12px;
+    margin: 10 10;
+    padding: 10px;
+    float: right;
 }
+
+.latest-project{
+    border: 1px,solid,#808080; 
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .Work Inquiry {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
